@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NaturaConsciente</string>
+    <string name="str_tv_tipo_de_perfil">Por favor, selecione o tipo de perfil:</string>
+    <string name="str_btn_consultor_natura">Consultor Natura</string>
+    <string name="str_btn_cliente_natura">Cliente Natura</string>
+    <string name="str_tv_cpf">Informe seu CPF:</string>
+    <string name="str_tv_senha">Informe sua Senha:</string>
+    <string name="str_btn_entrar">Entrar</string>
+    <string name="str_tv_matricula">Matrícula:</string>
+    <string name="str_btn_abrir_leitor">Abrir leitor de código de barras</string>
+    <string name="str_tv_infome_codigo_de_barras_da_embalagem">Infome o código de barras da embalagem:</string>
+    <string name="str_tv_informe_cpf_do_cliente">Informe o CPF do cliente:</string>
+    <string name="str_btn_registrar_embalagem">Registrar Embalagem</string>
+    <string name="str_tv_identifique_o_produto">Identifique o produto:</string>
+    <string name="str_btn_voltar">Voltar</string>
+    <string name="str_tv_status_da_embalagem">Status da Embalagem #0000000</string>
+    <string name="str_tv_premio_atual">Prêmio atual:</string>
+    <string name="str_tv_desconto_recebido">10% de desconto na compra de dois perfumes</string>
+    <string name="str_tv_qtd_pontos">Pontos: 10</string>
+    <string name="str_btn_resgatar_premio">Resgatar Prêmio</string>
+    <string name="str_tv_dados_e_estatisticas">Dados e Estatísticas</string>
+    <string name="str_tv_produto">Produto XXXXX</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_identifica_embalagem_consultor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="br.com.fiap.greencode.naturaconsciente.IdentificaEmbalagemConsultor">
+
+    <TextView
+        android:text="Aqui você precisa identificar a embalhagem que o seu cliente devolveu."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_abrir_leitor"
+        android:textSize="17sp"
+        android:id="@+id/btnAbreLeitor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_tv_infome_codigo_de_barras_da_embalagem"
+        android:textSize="17sp"
+        android:paddingTop="40dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:id="@+id/edtCodigoEmbalagem" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="@string/str_tv_informe_cpf_do_cliente" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:id="@+id/edtCpf" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_registrar_embalagem"
+        android:textSize="17sp"
+        android:id="@+id/btnRegistraEmbalagem"
+        android:onClick="identificarEmbalagem"
+        />
+
+    <Button
+        android:text="@string/str_btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="voltar"/>
+</LinearLayout>

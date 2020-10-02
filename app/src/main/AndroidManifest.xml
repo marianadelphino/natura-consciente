@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.greencode.naturaconsciente">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SelecionaPerfilActivity" />
+        <activity android:name=".LoginClienteActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".LoginConsultorActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".IdentificaEmbalagemConsultor" />
+        <activity android:name=".ConfirmaEmbalagemConsultor" />
+        <activity android:name=".VerificaStatusActivity" />
+        <activity android:name=".VerificaPontosActivity" />
+        <activity android:name=".EstatisticasActivity" />
+        <activity android:name=".MenuConsultorActivity" />
+        <activity android:name=".MenuClienteActivity"></activity>
+    </application>
+
+</manifest>
